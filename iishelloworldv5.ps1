@@ -1,4 +1,3 @@
-Add-WindowsFeature Web-Server
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/abinetabate/TestRepo3/master/appsettings.Development.json -OutFile C:\inetpub\wwwroot\appsettings.Development.json
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/abinetabate/TestRepo3/master/appsettings.json -OutFile C:\inetpub\wwwroot\appsettings.json
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/abinetabate/TestRepo3/master/aspnetcoreapp.deps.json -OutFile C:\inetpub\wwwroot\aspnetcoreapp.deps.json
